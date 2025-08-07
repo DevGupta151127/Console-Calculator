@@ -56,11 +56,6 @@ public class Calculator{
                 sc.next();
             }
 
-            catch (ArithmeticException e){
-                System.out.println(e.getMessage());
-                sc.next();
-            }
-
             System.out.print("Do you want to continue? y/n");
             String choice=sc.next();
             if(!choice.equals("y")){
